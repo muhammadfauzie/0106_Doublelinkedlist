@@ -106,7 +106,17 @@ public:
                     START->prev = NULL; //Step 2b: START.prev = NULL
                 }
             }
-        }  
+            else
+            {
+                //step 3: linkprevious node to next of current 
+                current->prev->next = current->next;
+
+                //step 4:if current is not the last node 
+                if (current->next != NULL)
+                current->next->prev = current->prev;
+            }
+
+        } 
     }
 
 };
