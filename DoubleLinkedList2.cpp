@@ -77,5 +77,14 @@ public:
         current->next->prev = newNode; // Step 9c: current.next.prev = newNode 
     }
 
+    void hapus()
+    {
+        if(START == NULL)
+        {
+            cout << "\nMasukkan NIM yang akan didelete";
+            int rollNo;
+            cin >> rollNo;
 
+        }     
+    }
 };
