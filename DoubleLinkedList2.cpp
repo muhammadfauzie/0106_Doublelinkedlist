@@ -29,6 +29,7 @@ public:
         //step 1:
         Node *newNode = new Node();
 
-   
-    
-};
+         //step 2: Assign value to the data fields
+        newNode->noMhs = nim;
+
+       
