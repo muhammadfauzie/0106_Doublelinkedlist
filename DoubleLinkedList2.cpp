@@ -194,5 +194,10 @@ public:
         while (current != NULL && current->noMhs != rollNo)
             current = current->next;
 
+        //step 2: Output result 
+        if (current == NULL)
+        {
+            cout << "Record not found\n";
+        }
     }    
 };
