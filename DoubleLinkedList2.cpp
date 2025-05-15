@@ -199,5 +199,14 @@ public:
         {
             cout << "Record not found\n";
         }
-    }    
+        else
+        {
+            cout << "Record found\n";
+            cout << "Roll Number: " << current->noMhs << endl;
+        }
+    }
+
 };
+
+
+
